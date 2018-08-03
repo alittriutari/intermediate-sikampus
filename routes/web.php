@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.dashboard');
 });
+
+Route::resource('user','UserController');
+Route::resource('mahasiswa',function(){
+    return view('pages.college');
+});
+
