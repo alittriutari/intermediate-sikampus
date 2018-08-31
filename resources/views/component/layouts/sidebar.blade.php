@@ -47,6 +47,26 @@
                     <a href="{{route('user.index')}}"><span class="title">User</span></a>
                     <span class="icon-thumbnail"><i class="pg-social"></i></span>
                 </li>
+                <li class="">
+                    <a href="{{route('student.index')}}"><span class="title">Student</span></a>
+                    <span class="icon-thumbnail"><i class="pg-social"></i></span>
+                </li>
+                <li class="">
+                    <a href="{{route('lecture.index')}}"><span class="title">Lecture</span></a>
+                    <span class="icon-thumbnail"><i class="pg-social"></i></span>
+                </li>
+                <li class="">
+                    <a href="{{route('course.index')}}"><span class="title">Course</span></a>
+                    <span class="icon-thumbnail"><i class="pg-social"></i></span>
+                </li>
+                <li class="">
+                    <a href="{{route('class.index')}}"><span class="title">Class</span></a>
+                    <span class="icon-thumbnail"><i class="pg-social"></i></span>
+                </li>
+                <li class="">
+                    <a href="{{route('staff.index')}}"><span class="title">Staff</span></a>
+                    <span class="icon-thumbnail"><i class="pg-social"></i></span>
+                </li>
                 <li>
                     <a href="javascript:;"><span class="title">Dropdown</span>
                         <span class=" arrow"></span></a>

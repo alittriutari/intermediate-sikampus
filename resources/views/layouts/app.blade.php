@@ -28,6 +28,8 @@
     <link href="{{asset('corporate/assets/plugins/rickshaw/rickshaw.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('corporate/pages/css/pages-icons.css')}}" rel="stylesheet" type="text/css">
     <link class="main-stylesheet" href="{{asset('corporate/pages/css/themes/corporate.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{asset('corporate/jquery-ui/jquery-ui.min.css')}}">
+
 </head>
 
 <body class="fixed-header dashboard menu-pin menu-behind">
@@ -100,6 +102,12 @@
     
         </div>
     
+
+    <script type="text/javascript" src="{{asset('corporate/jquery-ui/external/jquery/jquery.js')}}"></script>
+     <script type="text/javascript" src="{{asset('corporate/jquery-ui/jquery-ui.min.js')}}"></script>
+     <script type="text/javascript">
+         $("#date").datepicker();
+     </script>
 
     <script src="{{asset('corporate/assets/plugins/pace/pace.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('corporate/assets/plugins/jquery/jquery-3.2.1.min.js')}}" type="text/javascript"></script>
