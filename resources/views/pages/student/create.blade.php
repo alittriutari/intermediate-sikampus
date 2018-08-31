@@ -43,8 +43,11 @@
                                 <input type="radio" required="" name="gender" value="Perempuan">Perempuan
                             </div>
                             <div class="form-group">
-                                <label>Class ID</label>
-                                <span class="help">e.g. "Mas Joko"</span>
+                                <label>Class</label>
+                                <span class="help">e.g. "AB151"</span>
+                                <select class="form-control" name="class_id">
+                                    <option>Pilih Kelas</option>
+                                </select>
                                 <input type="text" class="form-control" required="" name="class_id">
                             </div>
 
